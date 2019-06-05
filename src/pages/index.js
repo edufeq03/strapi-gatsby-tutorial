@@ -7,6 +7,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <h1>Isso ae!! Tá rolando...</h1>
     <p>Usando Gatsby e Stripe para criar um site estático</p>
+    <p>Dificil configurar</p>
     <ul>
       {data.allStrapiArticle.edges.map(document => (
         <li key={document.node.id}>
