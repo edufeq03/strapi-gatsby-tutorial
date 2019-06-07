@@ -26,10 +26,10 @@ export const query = graphql`
       content
       image {
         childImageSharp {
-            fluid(maxWidth: 500) {
-              ...GatsbyImageSharpFluid
-            }
+          fluid(maxWidth: 960) {
+            ...GatsbyImageSharpFluid
           }
+        }
       }
       author {
         id
